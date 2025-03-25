@@ -1,0 +1,20 @@
+name: Docker Staging CI - SysSoftIntegra WebPage
+
+# Definición de eventos desencadenadores
+on:
+  push:
+    branches: 
+      - "master"
+
+# Definición de trabajos
+jobs:
+  build-and-deploy-production:
+    if: github.ref == 'refs/heads/master'
+    runs-on: self-hosted
+
+    steps:
+      - name: Checkout código
+        uses: actions/checkout@v3
+
+      - name: Creando y ejecutando contenedor
+        run: docker compose -f docker-compose.yml up --build -d
