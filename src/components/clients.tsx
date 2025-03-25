@@ -136,7 +136,7 @@ export function Clients() {
                     </div>
 
                     <div className="pt-10 text-center">
-                      <p className="text-gray-600 italic mb-6">"{testimonial.text}"</p>
+                      <p className="text-gray-600 italic mb-6">&quot;{testimonial.text}&quot;</p>
                       <h4 className="text-lg font-semibold text-gray-800">{testimonial.name}</h4>
                       <p className="text-gray-500">
                         {testimonial.position}, {testimonial.company}

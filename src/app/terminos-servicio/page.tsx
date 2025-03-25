@@ -48,24 +48,24 @@ export default function TerminosServicio() {
 
             <ul className="list-disc pl-6 mb-4 space-y-2">
               <li>
-                <strong>"Cliente"</strong> se refiere a cualquier persona o entidad que contrata los servicios de
+                <strong>&quot;Cliente&quot;</strong> se refiere a cualquier persona o entidad que contrata los servicios de
                 SysSoft Integra.
               </li>
               <li>
-                <strong>"Servicio"</strong> se refiere a los productos y servicios ofrecidos por SysSoft Integra,
+                <strong>&quot;Servicio&quot;</strong> se refiere a los productos y servicios ofrecidos por SysSoft Integra,
                 incluyendo pero no limitado a software de facturación electrónica, sistemas de gestión empresarial y
                 equipos para punto de venta.
               </li>
               <li>
-                <strong>"Plataforma"</strong> se refiere al software y sistemas proporcionados por SysSoft Integra para
+                <strong>&quot;Plataforma&quot;</strong> se refiere al software y sistemas proporcionados por SysSoft Integra para
                 el uso del Cliente.
               </li>
               <li>
-                <strong>"Usuario"</strong> se refiere a cualquier persona que acceda o utilice la Plataforma, ya sea en
+                <strong>&quot;Usuario&quot;</strong> se refiere a cualquier persona que acceda o utilice la Plataforma, ya sea en
                 nombre propio o en nombre del Cliente.
               </li>
               <li>
-                <strong>"Contenido"</strong> se refiere a toda la información y datos almacenados o transmitidos a
+                <strong>&quot;Contenido&quot;</strong> se refiere a toda la información y datos almacenados o transmitidos a
                 través de la Plataforma.
               </li>
             </ul>
@@ -159,7 +159,7 @@ export default function TerminosServicio() {
 
             <p>
               Nuestra Plataforma permite a los Usuarios publicar, enlazar, almacenar, compartir y poner a disposición
-              cierta información, texto, gráficos, videos u otro material ("Contenido"). Usted es responsable del
+              cierta información, texto, gráficos, videos u otro material (&quot;Contenido&quot;). Usted es responsable del
               Contenido que publica en o a través de la Plataforma, incluyendo su legalidad, confiabilidad y
               apropiación.
             </p>
