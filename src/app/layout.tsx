@@ -57,11 +57,36 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://www.syssoftintegra.com", // Reemplaza con tu dominio real
   },
-  // ... tus metadatos existentes
   other: {
     'geo.region': 'PE', // Código de país para Perú
     'geo.placename': 'Lima', // Ciudad
     'geo.position': '-12.0464;-77.0428', // Coordenadas de Lima
+    'jsonld': JSON.stringify({
+      '@context': 'https://schema.org',
+      '@type': 'SoftwareApplication',
+      'name': 'SysSoft Integra',
+      'description': 'Sistema web y escritorio para realizar ventas, compras, control de inventario, facturación electrónica, guia de remisión, para todo tipo de negocios.',
+      'applicationCategory': 'Business Management Software',
+      'operatingSystem': 'Web, Windows, macOS',
+      'offers': {
+        '@type': 'Offer',
+        'price': '0',
+        'priceCurrency': 'PEN'
+      },
+      'publisher': {
+        '@type': 'Organization',
+        'name': 'SysSoft Integra',
+        'logo': {
+          '@type': 'ImageObject',
+          'url': 'https://www.syssoftintegra.com/logo.png'
+        }
+      },
+      'author': {
+        '@type': 'Person',
+        'name': 'Luis Lara',
+        'url': 'https://www.linkedin.com/in/xander-ls-907566350/'
+      }
+    })
   },
 
 }
