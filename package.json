@@ -6,7 +6,8 @@
     "dev": "next dev -p 3112",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "patch": "npm version patch"
   },
   "dependencies": {
     "lucide-react": "^0.483.0",
